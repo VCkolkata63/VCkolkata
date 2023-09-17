@@ -1,0 +1,38 @@
+input {
+    padding: 0.5rem;
+    /* To make space for the icon */
+}
+
+/* Style for the icon */
+/* .icon {
+    position: absolute;
+    top: 75%;
+    right: 1rem;
+    transform: translateY(-50%);
+    color: #888;
+} */
+
+#box1,
+#box2,
+#box3 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    height: 20%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    position: relative; /* To make sure the icon is positioned relative to these containers */
+}
+
+form {
+    padding-top: 1.4rem;
+}
+
+.box {
+    background-color: #5e9e73;
+}
+
+.row2 {
+    margin: 2% 0 2% 2%;
+}
