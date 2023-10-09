@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+
+
+        }
+
+        .anchor-custom-color {
+            color: #360eb8;
+        }
+
+        .anchor-custom-color2 {
+            color: crimson;
+        }
+
+        .partition {
+            float: left;
+            width: 365px;
+            height: 420px;
+            box-sizing: border-box;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Helvetica, sans-serif;
+            color: red;
+            font-size: 12px;
+
+        }
+
+        #leftPartition {
+            margin-left: 30vh;
+            margin-top: 10vh;
+            background-color: #EAE6E6;
+            box-sizing: border-box;
+            text-align: center;
+
+        }
+
+        .data {
+            overflow-y: auto;
+            max-height: 330px;
+            position: relative;
+
+        }
+
+        .data {
+            
+            scrollbar-width: thin;
+
+        }
+
+        .data::-webkit-scrollbar {
+            width: 10px;
+           
+        }
+
+       
+        .data::-webkit-scrollbar-thumb {
+            background-color: #888888;
+            border-radius: 10px;
+            
+        }
+
+
+
+        #rightPartition {
+            margin-top: 10vh;
+            background-color: #ffffff;
+            padding-left: 20px;
+        }
+
+        #id {
+            width: 100px;
+
+        }
+
+        .date {
+            background: #BEDEB1;
+            background-size: cover;
+            color: black;
+            box-sizing: border-box;
+
+
+
+        }
+
+        .notice {
+            padding-top: 5px;
+            color: black;
+            background: #BEDEB1;
+            background-size: initial;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            position: sticky;
+            top: 0;
+
+        }
+
+        .noticefooter {
+            height: 20px;
+            color: black;
+            background: #EAE6E6;
+            background-size: auto;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            position: sticky;
+            bottom: 0;
+
+        }
+
+        .noticevector {
+            width: 2px;
+            height: 1px;
+
+        }
+
+        p {
+            padding-top: 20px;
+        }
+
+        .noticesvg {
+            width: 20px;
+            height: 15px;
+            align-content: start;
+        }
+
+        hr {
+            width: 90%;
+            margin: 0 auto;
+        }
